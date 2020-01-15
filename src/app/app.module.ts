@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 // used to create fake backend
@@ -11,25 +10,24 @@ import { ErrorInterceptor } from './_helpers/error.interceptor';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './pages/login/login.component';
-import { MaintenanceListComponent } from './pages/maintenance-list/maintenance-list.component';
-import { MaintenanceCreateComponent } from './pages/maintenance-create/maintenance-create.component';
+// import { LoginComponent } from './pages/login/login.component';
+// import { MaintenanceListComponent } from './pages/maintenance-list/maintenance-list.component';
+// import { MaintenanceCreateComponent } from './pages/maintenance-create/maintenance-create.component';
 import { AlertComponent } from './_components/alert/alert.component';
-import { RegisterUserComponent } from './pages/register-user/register-user.component';
-import { PagesComponent } from './pages/pages.component';
+// import { RegisterUserComponent } from './pages/register-user/register-user.component';
+// import { PagesComponent } from './pages/pages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    MaintenanceListComponent,
-    MaintenanceCreateComponent,
+    // LoginComponent,
+    // MaintenanceListComponent,
+    // MaintenanceCreateComponent,
     AlertComponent,
-    RegisterUserComponent,
-    PagesComponent
+    // RegisterUserComponent,
+    // PagesComponent
   ],
   imports: [
-    ReactiveFormsModule,
     HttpClientModule,
     BrowserModule,
     AppRoutingModule
