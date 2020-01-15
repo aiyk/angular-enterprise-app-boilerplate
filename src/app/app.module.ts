@@ -16,6 +16,7 @@ import { MaintenanceListComponent } from './pages/maintenance-list/maintenance-l
 import { MaintenanceCreateComponent } from './pages/maintenance-create/maintenance-create.component';
 import { AlertComponent } from './_components/alert/alert.component';
 import { RegisterUserComponent } from './pages/register-user/register-user.component';
+import { PagesComponent } from './pages/pages.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RegisterUserComponent } from './pages/register-user/register-user.compo
     MaintenanceListComponent,
     MaintenanceCreateComponent,
     AlertComponent,
-    RegisterUserComponent
+    RegisterUserComponent,
+    PagesComponent
   ],
   imports: [
     ReactiveFormsModule,
