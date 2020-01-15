@@ -10,22 +10,14 @@ import { ErrorInterceptor } from './_helpers/error.interceptor';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-// import { LoginComponent } from './pages/login/login.component';
-// import { MaintenanceListComponent } from './pages/maintenance-list/maintenance-list.component';
-// import { MaintenanceCreateComponent } from './pages/maintenance-create/maintenance-create.component';
 import { AlertComponent } from './_components/alert/alert.component';
-// import { RegisterUserComponent } from './pages/register-user/register-user.component';
-// import { PagesComponent } from './pages/pages.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    // LoginComponent,
-    // MaintenanceListComponent,
-    // MaintenanceCreateComponent,
     AlertComponent,
-    // RegisterUserComponent,
-    // PagesComponent
+    HeaderComponent
   ],
   imports: [
     HttpClientModule,
