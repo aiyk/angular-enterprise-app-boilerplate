@@ -11,11 +11,11 @@ import { ErrorInterceptor } from './_helpers/error.interceptor';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
-import { MaintenanceListComponent } from './maintenance-list/maintenance-list.component';
-import { MaintenanceCreateComponent } from './maintenance-create/maintenance-create.component';
+import { LoginComponent } from './pages/login/login.component';
+import { MaintenanceListComponent } from './pages/maintenance-list/maintenance-list.component';
+import { MaintenanceCreateComponent } from './pages/maintenance-create/maintenance-create.component';
 import { AlertComponent } from './_components/alert/alert.component';
-import { RegisterUserComponent } from './register-user/register-user.component';
+import { RegisterUserComponent } from './pages/register-user/register-user.component';
 
 @NgModule({
   declarations: [
