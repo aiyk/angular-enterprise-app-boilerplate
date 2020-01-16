@@ -1,0 +1,13 @@
+.page{
+  width: 100%;
+  display: flex;
+}
+// .page__list, .page__detail{
+//   padding: 1rem 2rem;
+// }
+.page__list{
+  width: 30rem;
+}
+.page__detail{
+  width: calc(100% - 30rem);
+}

@@ -1,0 +1,29 @@
+.listItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  border-top: .1rem solid rgba(0, 0, 0, 0.2);
+}
+.listItem:hover{
+  .listItem__rhs{
+    display: block;
+  }
+}
+.listItem__lhs{
+  width: calc(100% - 3rem);
+}
+.listItem__lhs__title{
+  font-size: 1.6rem;
+  color: #000000;
+}
+.listItem__lhs__desc{
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.listItem__rhs{
+  display: none;
+  width: 2rem;
+  cursor: pointer;
+}

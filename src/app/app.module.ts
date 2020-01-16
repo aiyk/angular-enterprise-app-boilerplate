@@ -9,20 +9,20 @@ import { JwtInterceptor } from './_helpers/jwt.interceptor';
 import { ErrorInterceptor } from './_helpers/error.interceptor';
 
 import { AppRoutingModule } from './app-routing.module';
+import { ComponentsModule } from './_components/components.module';
 import { AppComponent } from './app.component';
-import { AlertComponent } from './_components/alert/alert.component';
 import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AlertComponent,
-    HeaderComponent
+    HeaderComponent,
   ],
   imports: [
     HttpClientModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ComponentsModule
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
