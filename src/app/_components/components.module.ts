@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { AlertComponent } from './alert/alert.component';
 import { CardComponent } from './card/card.component';
+import { CardDetailItemComponent } from './card/card-detail-item/card-detail-item.component';
 
 @NgModule({
   declarations: [
     AlertComponent,
-    CardComponent
+    CardComponent,
+    CardDetailItemComponent
   ],
   imports: [
     CommonModule
